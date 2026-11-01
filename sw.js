@@ -1,5 +1,5 @@
 // Offline support: app shell is cached on install, everything else is cached as it loads.
-const CACHE = "gym-journal-v1";
+const CACHE = "gym-journal-v2";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
